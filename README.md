@@ -1,4 +1,3 @@
-# browser-password-decryptor
 # 🔐 Browser Password Decryptor (Python)
 
 This is a Python-based script that decrypts saved passwords from Chromium-based browsers like **Google Chrome** or **Microsoft Edge** on **Windows**.  
@@ -25,22 +24,21 @@ This script does the following:
 
 ---
 
-## 📂 Project Structure
 ## 🚀 Usage
 
-1. **Find the browser profile folder** that contains:
-   - `Login Data`
-   - `Local State`
+To use this script to decrypt saved browser passwords:
 
-   📂 On Windows, this is usually located at:
-C:\Users<YourUsername>\AppData\Local\Google\Chrome\User Data\Default
+1. **Find the folder that contains** both `Login Data` and `Local State`.  
+   On Windows, this is usually located at:  
+   `C:\Users\<YourUsername>\AppData\Local\Google\Chrome\User Data\Default`
 
-2. **Run the script in your terminal or command prompt**:
-```bash
-python decrypt.py
-```
+2. **Open your terminal or command prompt** and navigate to the folder where this script is located.
+
+3. **Run the script** using:
+   ```bash
+   python decrypt.py
 3. When asked, paste the full path to the folder containing Login Data and Local State. For example:
-   C:\Users\YG\AppData\Local\Google\Chrome\User Data\Default
+   `C:\Users\YG\AppData\Local\Google\Chrome\User Data\Default`
 4. The script will:
    - Extract saved website URLs, usernames, and passwords
    - Decrypt the passwords using Windows DPAPI + AES
@@ -50,9 +48,9 @@ python decrypt.py
 
    
 ✅ Result
-After running, you’ll see:
-**************************************************
-URL: https://example.com
-Username: your@email.com
-Password: mysecret123
-**************************************************
+   After running, you’ll see:
+      **************************************************
+      URL: https://example.com
+      Username: your@email.com
+      Password: mysecret123
+      **************************************************
