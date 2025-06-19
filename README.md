@@ -26,4 +26,33 @@ This script does the following:
 ---
 
 ## 📂 Project Structure
+## 🚀 Usage
 
+1. **Find the browser profile folder** that contains:
+   - `Login Data`
+   - `Local State`
+
+   📂 On Windows, this is usually located at:
+C:\Users<YourUsername>\AppData\Local\Google\Chrome\User Data\Default
+
+2. **Run the script in your terminal or command prompt**:
+```bash
+python decrypt.py
+```
+3. When asked, paste the full path to the folder containing Login Data and Local State. For example:
+   C:\Users\YG\AppData\Local\Google\Chrome\User Data\Default
+4. The script will:
+   - Extract saved website URLs, usernames, and passwords
+   - Decrypt the passwords using Windows DPAPI + AES
+   - Save the results into a file called output.txt in the same folder
+     
+5. Open output.txt to see the list of saved login credentials.
+
+   
+✅ Result
+After running, you’ll see:
+**************************************************
+URL: https://example.com
+Username: your@email.com
+Password: mysecret123
+**************************************************
