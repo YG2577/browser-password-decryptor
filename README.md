@@ -49,9 +49,11 @@ To use this script to decrypt saved browser passwords:
    
 ✅ Result
 After running, you’ll see:
-`**************************************************
+```bash
+**************************************************
 URL: https://example.com  
 Username: your@email.com  
 Password: mysecret123  
-**************************************************`
+**************************************************
+```
 
