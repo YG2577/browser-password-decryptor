@@ -48,9 +48,10 @@ To use this script to decrypt saved browser passwords:
 
    
 ✅ Result
-   After running, you’ll see:
-      **************************************************
-      URL: https://example.com
-      Username: your@email.com
-      Password: mysecret123
-      **************************************************
+After running, you’ll see:
+`**************************************************
+URL: https://example.com  
+Username: your@email.com  
+Password: mysecret123  
+**************************************************`
+
