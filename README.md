@@ -46,7 +46,15 @@ To use this script to decrypt saved browser passwords:
      
 5. Open output.txt to see the list of saved login credentials.
 
-   
+## 📺 Demo Video
+
+Watch the tutorial on how to use the Browser Password Decryptor:
+
+[![Watch the Demo on YouTube](https://img.youtube.com/vi/eJSSNB8Ak8A/maxresdefault.jpg)](https://youtu.be/eJSSNB8Ak8A?si=ZrfBeC4Xi-rvZHAQ)
+
+👉 [Click here to watch directly on YouTube](https://youtu.be/eJSSNB8Ak8A?si=ZrfBeC4Xi-rvZHAQ)
+
+
 ✅ Result
 After running, you’ll see:
 ```bash
@@ -56,4 +64,3 @@ Username: your@email.com
 Password: mysecret123  
 **************************************************
 ```
-
