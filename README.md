@@ -1,3 +1,4 @@
+nyi597558@gmail.com 
 # 🔐 Browser Password Decryptor (Python)
 
 This is a Python-based script that decrypts saved passwords from Chromium-based browsers like **Google Chrome** or **Microsoft Edge** on **Windows**.  
